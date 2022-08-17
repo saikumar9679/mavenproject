@@ -24,12 +24,12 @@
  <plugin>
           <groupId>org.apache.maven.plugins</groupId>
          <artifactId>maven-war-plugin</artifactId>
- <configuration>
+<!-- <configuration>
          <outputDirectory>/opt/test</outputDirectory>
-  </configuration>
+  </configuration> -->
   </plugin>
   </plugins>
-  <finalName>WebProject</finalName>
+ <!-- <finalName>WebProject</finalName> -->
   </build>
 
 </project>
