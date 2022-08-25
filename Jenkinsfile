@@ -4,7 +4,7 @@ pipeline{
         maven 'maven-3.5.0'
     }
      stages{
-         stage('check-out'){
+         stage('check-outing'){
              steps{
              git 'https://github.com/SundeepBinaylal/mavenproject.git'
              }
